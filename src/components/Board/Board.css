@@ -1,0 +1,28 @@
+.board {
+    display: grid;
+    grid-template-rows: repeat(20, auto);
+    grid-gap: 1px;
+    border: 2px solid #333;
+    width: 300px;
+    background-color: #111;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-gap: 1px;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+  }
+  
+  .cyan { background-color: #00FFFF; }
+  .yellow { background-color: #FFFF00; }
+  .purple { background-color: #800080; }
+  .green { background-color: #00FF00; }
+  .red { background-color: #FF0000; }
+  .blue { background-color: #0000FF; }
+  .orange { background-color: #FFA500; }
